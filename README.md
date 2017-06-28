@@ -31,7 +31,7 @@ To compile TetGen into a executable file, use the following command:
 Tetgen is provided if you clone falcon directly from github, but requires indivduial user to compile it. Tetgen is located in **falcon/tpl/tetgen**. To compile tetgen, simply navigate to the folder and follow the instruction above. 
  
 ### Environmental Variable ###
-To use Tetgen executable outside of the file, navigate to the file using this command:
+To use Tetgen executable outside of predetermined location, navigate to the file using this command:
 
 	vi ~/.bash_profile
 
