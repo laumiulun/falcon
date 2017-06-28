@@ -112,21 +112,8 @@ print(bcolors.GREEN+'Tetgen OK'+bcolors.N)
 
 outname2=outname[:-4]+'1.vtk'
 
-# READ INPUT FILE
-##with open(inname) as f:
-##    out=[]
-##    for line in f:
-##        line = line.split()
-##        if line:
-##            line=[str(i) for i in line]  # convert to str
-##            out.append(line)
-##            
-##del out[0:locat]
-### COUNTS THE NUMBER OF ROWS AND COLUMNS
-##NumsRows=len(out)
-##NumsColu=(len(out[0]))
-
 NullV=int(-998)
+
 # NUMBER OF ATTRIBUTES (subtracting XYZ)
 NumsA=NumsColu-3
 

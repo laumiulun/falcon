@@ -94,7 +94,7 @@ The input file is will be consist of XYZ and any number of attributes. The forma
 An example input file has been provided:
 [Example Input File](https://raw.githubusercontent.com/laumiulun/TetgenMESH/master/Gamma.txt)
 
-In the inputfile, the 
+In the inputfile, the scripts will look for a string "END" which will designated as the end of header, else it will assume no header is included
 ### Using TetgenMESH
 
 To run the scripts, simply navigate to the test folder and enter the following command:
